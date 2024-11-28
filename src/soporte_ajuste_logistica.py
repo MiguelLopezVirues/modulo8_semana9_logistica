@@ -80,7 +80,7 @@ class AnalisisModelosClasificacion:
                 'max_depth': [None, 10, 20, 30],
                 'min_samples_split': [2, 5, 10],
                 'min_samples_leaf': [1, 2, 4],
-                'max_features': ['auto', 'sqrt', 'log2']
+                'max_features': ['sqrt', 'log2']
             },
             "gradient_boosting": {
                 'n_estimators': [100, 200],
